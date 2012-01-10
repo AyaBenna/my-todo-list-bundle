@@ -1,0 +1,11 @@
+{% extends 'MyTodoListBundle::layout.html.twig' %}
+
+{% block title %}
+    {{ parent() }} - Task {{ taskId }}
+{% endblock %}
+
+{% block body %}
+    <h1>Task {{ taskId }}</h1>
+
+    <a href="{{ path("homepage") }}">Back to home</a>
+{% endblock %}

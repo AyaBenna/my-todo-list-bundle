@@ -1,9 +1,13 @@
-{% extends '::base.html.twig' %}
+{% extends 'MyTodoListBundle::layout.html.twig' %}
 
 {% block title %}
     {{ parent() }} - Welcome!
 {% endblock %}
 
 {% block body %}
-    Welcome to MyTodoListBundle, the web based todo list manager!
+    <h1>Welcome to MyTodoListBundle!</h1>
+
+    <p>
+        MyTodoListBundle, the web based todo list manager!
+    </p>
 {% endblock %}
