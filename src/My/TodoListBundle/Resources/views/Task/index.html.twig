@@ -7,5 +7,7 @@
 {% block body %}
     <h1>Task {{ taskId }}</h1>
 
-    <a href="{{ path("homepage") }}">Back to home</a>
+    <a href="{{ path("homepage") }}" class="button" title="Back to home">
+        <img src="{{ asset('bundles/mytodolist/images/home.png') }}" alt="Home" />
+    </a>
 {% endblock %}
