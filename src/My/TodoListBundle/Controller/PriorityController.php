@@ -6,10 +6,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
-class TaskController extends Controller
+class PriorityController extends Controller
 {
     /**
-     * @Route("/tasks", name="task_list")
+     * @Route("/priorities", name="priority_list")
      * @Template()
      */
     public function indexAction()
