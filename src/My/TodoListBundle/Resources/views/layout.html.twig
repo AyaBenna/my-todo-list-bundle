@@ -5,7 +5,10 @@
         <title>
             {% block title %}MyTodoListBundle{% endblock %}
         </title>
-        {% block stylesheets %}{% endblock %}
+
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('bundles/mytodolist/css/body.css') }}" type="text/css" media="all" />
+        {% endblock %}
 
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
     </head>

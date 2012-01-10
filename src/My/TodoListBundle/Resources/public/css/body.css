@@ -1,0 +1,14 @@
+/**
+ * Body design.
+ */
+
+body {
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+     color: #444444;
+}
+
+h1 {
+     color: #DD4B39;
+     font-size: 25px;
+}
