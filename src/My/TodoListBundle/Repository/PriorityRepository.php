@@ -1,6 +1,6 @@
 <?php
 
-namespace My\TodoListBundle\Entity;
+namespace My\TodoListBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
 
