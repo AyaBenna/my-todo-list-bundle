@@ -1,5 +1,16 @@
 /**
  * Body design.
+ *
+ * Color chart:
+ *  - red: #DD4B39;
+ *  - blue: #4D90FE;
+ *  - grey: #E5E5E5;
+ *  - black: #444444;
+ *  - green: #7CD646;
+ *  - yellow: #FFD14C;
+ *  - dark red: #D14836;
+ *  - dark blue: #2A5DB0;
+ *  - dark grey: #666666.
  */
 
 body {
@@ -9,6 +20,7 @@ body {
 }
 
 h1 {
-     color: #DD4B39;
+     color: #2A5DB0;
      font-size: 25px;
+     border-bottom: 1px solid #E5E5E5;
 }

@@ -8,11 +8,16 @@
 
         {% block stylesheets %}
             <link rel="stylesheet" href="{{ asset('bundles/mytodolist/css/body.css') }}" type="text/css" media="all" />
+            <link rel="stylesheet" href="{{ asset('bundles/mytodolist/css/menu.css') }}" type="text/css" media="all" />
         {% endblock %}
 
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+        <nav>
+            {{ knp_menu_render('MyTodoListBundle:Builder:mainMenu') }}
+        </nav>
+
         {% block body %}{% endblock %}
 
         {% block javascripts %}{% endblock %}
