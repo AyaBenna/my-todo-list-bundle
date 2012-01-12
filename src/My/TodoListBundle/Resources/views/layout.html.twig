@@ -10,9 +10,11 @@
 {% endblock %}
 
 {% block content %}
-    <nav>
-        {{ knp_menu_render('MyTodoListBundle:Builder:mainMenu') }}
-    </nav>
+    <div class="three columns sidebar">
+        <nav>
+            {{ knp_menu_render('MyTodoListBundle:Builder:mainMenu') }}
+        </nav>
+    </div>
 
     {% block body %}{% endblock %}
 {% endblock %}
