@@ -1,25 +1,20 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>
-            {% block title %}MyTodoListBundle{% endblock %}
-        </title>
+{% extends 'DhgamacheSkeletonBundle::layout.html.twig' %}
 
-        {% block stylesheets %}
-            <link rel="stylesheet" href="{{ asset('bundles/mytodolist/css/body.css') }}" type="text/css" media="all" />
-            <link rel="stylesheet" href="{{ asset('bundles/mytodolist/css/menu.css') }}" type="text/css" media="all" />
-        {% endblock %}
+{% block title %}
+    MyTodoListBundle
+{% endblock %}
 
-        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('bundles/mytodolist/css/body.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('bundles/mytodolist/css/menu.css') }}" type="text/css" media="all" />
+{% endblock %}
+
+{% block content %}
+    <div class="three columns sidebar">
         <nav>
             {{ knp_menu_render('MyTodoListBundle:Builder:mainMenu') }}
         </nav>
+    </div>
 
-        {% block body %}{% endblock %}
-
-        {% block javascripts %}{% endblock %}
-    </body>
-</html>
+    {% block body %}{% endblock %}
+{% endblock %}
