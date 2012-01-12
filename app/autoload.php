@@ -16,7 +16,7 @@ $loader->registerNamespaces(array(
     'Metadata'         => __DIR__.'/../vendor/metadata/src',
     'Knp\\Bundle'      => __DIR__.'/../vendor/bundles',
     'Knp\\Menu'        => __DIR__.'/../vendor/KnpMenu/src',
-    'Dhgamache\Bundle' => __DIR__.'/../vendor/bundles',
+    'Dhgamache'        => __DIR__.'/../vendor/bundles',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
