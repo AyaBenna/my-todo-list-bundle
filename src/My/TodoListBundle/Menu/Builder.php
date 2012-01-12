@@ -16,11 +16,6 @@ class Builder extends ContainerAware
         $menu->addChild('Statuses', array('route' => 'status_list'));
         $menu->addChild('Priorities', array('route' => 'priority_list'));
 
-        foreach ($menu as &$item)
-        {
-            $item->setLinkAttribute('class', 'button');
-        }
-
         return $menu;
     }
 }
