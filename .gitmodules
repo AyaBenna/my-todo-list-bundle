@@ -4,3 +4,9 @@
 [submodule "vendor/KnpMenu"]
 	path = vendor/KnpMenu
 	url = https://github.com/KnpLabs/KnpMenu.git
+[submodule "vendor/Skeleton"]
+	path = vendor/Skeleton
+	url = https://github.com/dhgamache/Skeleton.git
+[submodule "vendor/bundles/Dhgamache/Bundle/SkeletonBundle"]
+	path = vendor/bundles/Dhgamache/Bundle/SkeletonBundle
+	url = https://github.com/gnugat/DhgamacheSkeletonBundle.git
