@@ -7,6 +7,3 @@
 [submodule "vendor/Skeleton"]
 	path = vendor/Skeleton
 	url = https://github.com/dhgamache/Skeleton.git
-[submodule "vendor/bundles/Dhgamache/SkeletonBundle"]
-	path = vendor/bundles/Dhgamache/SkeletonBundle
-	url = https://github.com/gnugat/DhgamacheSkeletonBundle.git
