@@ -7,6 +7,11 @@ nav ul {
     padding-left: 0px;
 }
 
+nav li {
+    margin-bottom: 0px;
+    height: 30px;
+}
+
 nav li:hover {
     background-color: #E5E5E5;
 }
@@ -19,4 +24,5 @@ nav ul li.current a {
 nav a {
     color: #444444;
     text-decoration: none;
+    display: block;
 }
