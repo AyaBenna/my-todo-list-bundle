@@ -1,0 +1,1 @@
+A web based todo list manager, made with Symfony2.
